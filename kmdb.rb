@@ -199,9 +199,10 @@ puts ""
 
 # Query the movies data and loop through the results to display the movies output.
 # TODO!
+batman_begins = Movie.where({"title" => "Batman Begins"})
+puts batman_begins.inspect
 
-all_movies = Movie.all
-puts all_movies.inspect
+ 
 
 
 # Prints a header for the cast output
