@@ -202,8 +202,11 @@ puts ""
 batman_begins = Movie.where({"title" => "Batman Begins"})
 puts batman_begins.inspect
 
- 
+the_dark_knight = Movie.where({"title" => "The Dark Knight"})
+puts the_dark_knight.inspect
 
+the_dark_knight_rises = Movie.where({"title" => "The Dark Knight"})
+puts the_dark_knight_rises.inspect
 
 # Prints a header for the cast output
 puts ""
