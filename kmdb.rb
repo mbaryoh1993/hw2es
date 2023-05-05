@@ -200,6 +200,10 @@ puts ""
 # Query the movies data and loop through the results to display the movies output.
 # TODO!
 
+all_movies = Movie.all
+puts all_movies.inspect
+
+
 # Prints a header for the cast output
 puts ""
 puts "Top Cast"
