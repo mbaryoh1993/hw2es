@@ -213,6 +213,15 @@ puts ""
 puts "Top Cast"
 puts "========"
 puts ""
+batman_begins_actors = Role.where({"title" => "Batman Begins"})
+puts batman_begins_actors.inspect
+
+the_dark_knight_actors = Role.where({"title" => "The Dark Knight"})
+puts the_dark_knight_actors.inspect
+
+the_dark_knight_rises_actors = Role.where({"title" => "The Dark Knight Rises"})
+puts the_dark_knight_rises_actors.inspect
+
 
 # Query the cast data and loop through the results to display the cast output for each movie.
 # TODO!
